@@ -1,3 +1,4 @@
+// Add DOM interaction
 document.addEventListener('DOMContentLoaded', () => {
     
     const ctaInput = document.getElementById('cta-input');
