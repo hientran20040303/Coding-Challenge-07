@@ -1,3 +1,4 @@
+/* Color Palette*/
 :root {
     --black: #000000;
     --white: #ffffff;
@@ -5,6 +6,7 @@
     --gray-line: #333333;
 }
 
+/*Body section*/
 body {
     font-family: 'Montserrat', 'Bebas Neue', 'Georgia', sans-serif;
     margin: 0;
@@ -23,7 +25,7 @@ header {
     top: 0;
     z-index: 1000;
 }
-
+ /* Logo BK Animation*/
 .logo {
     font-size: 1.6rem;
     font-weight: 900;
@@ -33,7 +35,7 @@ header {
 .logo {
     color: var(--orange);
 }
-
+ /* Navigation menu*/
 nav ul {
     list-style: none;
     display: flex;
@@ -50,7 +52,7 @@ nav a {
     letter-spacing: 1px;
     transition: 0.3s ease;
 }
-
+/* Hover effect for nagivation*/
 nav a:hover {
     color: var(--orange);
 }
@@ -96,7 +98,7 @@ main {
     outline: none;
     font-size: 0.9rem;
 }
-
+/* Update vision statement button*/
 #update-btn {
     background: var(--orange);
     color: var(--black);
@@ -124,7 +126,7 @@ main {
     padding: 40px 30px;
     transition: 0.4s ease;
 }
-
+/* Hover effect for service block*/
 .service:hover {
     background-color: var(--gray-line);
 }
