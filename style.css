@@ -162,3 +162,10 @@ footer {
     letter-spacing: 1px;
     margin-top: 5px;
 }
+
+/* Mobile responsive*/
+@media (max-width: 768px) {
+    header { flex-direction: column; gap: 15px; }
+    .vision-container { flex-direction: column; }
+    .vision-label { writing-mode: horizontal-tb; border-right: none; border-bottom: 1px solid var(--orange); }
+}
