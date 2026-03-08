@@ -165,7 +165,56 @@ footer {
 
 /* Mobile responsive*/
 @media (max-width: 768px) {
-    header { flex-direction: column; gap: 15px; }
-    .vision-container { flex-direction: column; }
-    .vision-label { writing-mode: horizontal-tb; border-right: none; border-bottom: 1px solid var(--orange); }
+    header {
+        flex-direction: column;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    nav ul {
+        margin-top: 15px;
+        gap: 15px;
+    }
+
+    #cta-headline {
+        font-size: 2.2rem;
+    }
+
+    .hero {
+        padding: 40px 5%;
+    }
+
+    .search-section {
+        padding: 0 5% 40px 5%;
+    }
+}
+
+@media (max-width: 480px) {
+    nav ul {
+        gap: 10px;
+    }
+
+    nav a {
+        font-size: 0.7rem;
+    }
+
+    .search-container {
+        flex-direction: column;
+        border-bottom: none;
+    }
+
+    #cta-input {
+        border-bottom: 2px solid var(--orange);
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    #update-btn {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .service {
+        padding: 30px 20px;
+    }
 }
